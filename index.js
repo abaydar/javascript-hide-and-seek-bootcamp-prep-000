@@ -6,6 +6,6 @@ function deepestChild(){
 function increaseRankBy(n) {
   var ul = document.querySelectorAll('ul.ranked-list li')
   for (let i = 0; i < ul.length; i++) {
-    ul[i].textContent = parseInt(ul[i].textContent) + n
+    ul[i].innerHTML = parseInt(ul[i].innerHTML) + n
   } return ul
 }
