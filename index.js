@@ -5,4 +5,5 @@ function deepestChild(){
   return deep[deep.length-1]}
 function increaseRankBy(n){
   var id = document.getElementById("app")
+  for(var i = 0, i < )
 }
