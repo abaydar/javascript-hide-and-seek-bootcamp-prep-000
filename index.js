@@ -4,6 +4,6 @@ function deepestChild(){
   var deep = document.getElementById('grand-node').querySelectorAll('div')
   return deep[deep.length-1]}
 function increaseRankBy(n){
-  var id = document.getElementById("app")
+  var rankedList = document.getElementById("app")
   for(var i = 0, i < )
 }
