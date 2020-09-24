@@ -3,7 +3,9 @@ function nestedTarget(){return document.getElementById('nested').querySelector('
 function deepestChild(){
   var deep = document.getElementById('grand-node').querySelectorAll('div')
   return deep[deep.length-1]}
-function increaseRankBy(n){
-  var rankedList = document.querySelectorAll('.ranked-list');
-  for(var i = 0; i < rankedList.length; i++){rankedList[i].innerHTML = parseInt(rankedList[i].innerHTML) + n}
+function increaseRankBy(n) {
+  var ul = document.querySelectorAll('ul.ranked-list li')
+  for (let i = 0; i < ul.length; i++) {
+    ul[i].textContent = parseInt(ul[i].textContent) + n
+  } return ul
 }
